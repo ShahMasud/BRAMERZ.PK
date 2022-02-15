@@ -1,0 +1,22 @@
+.container{
+    // background-color: orange;
+    padding: 80px;
+    .mainDIV{
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        // width: 100%;
+        .images{
+            transition: 0.2s all ease-out;
+            justify-content: center;
+            
+        }
+        .images:hover{
+            cursor: pointer;
+            transform: scale(0.9);
+
+
+        }
+    }
+
+}

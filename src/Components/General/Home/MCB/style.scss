@@ -1,0 +1,15 @@
+.mcbDiv{
+    background-image: url("../../../../Assets/Images/green.jpg");
+    height: 100vh;
+    padding-top: 230px;
+    padding-left: 170px;
+    .text{  
+        width: 30%;
+        color: white;
+        h1:hover{
+            cursor: pointer;
+            color: red;
+        }
+    }
+    
+}

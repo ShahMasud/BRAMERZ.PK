@@ -1,0 +1,16 @@
+.PSLDiv{
+    background-image: url("../../../../Assets/Images/bramerz.jpg");
+    height: 100vh;
+    padding-top: 530px;
+    background-color: red;
+    padding-left: 170px;
+    padding: 10px;
+    .text{  
+        // width: 0%;
+        color: white;
+        h1:hover{
+            cursor: pointer;
+            color: red;
+        }
+    }
+}
