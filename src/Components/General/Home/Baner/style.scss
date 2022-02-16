@@ -1,7 +1,6 @@
 .Section{
     background-image: url("../../../../Assets/Images/milkyway.jpg");
     height: 100vh;
-    // width: 100vw;
     margin-bottom: 70px;
 
    .logo{ 
@@ -18,20 +17,16 @@
     color: white;
     font-size: small;
     letter-spacing: 2px;
-    // background-color: orange;
 }
 .search:hover{
-    // border-bottom: 2px solid black;
     color: red;
 }
-
 .theStart{
     text-align: center;
     margin-top: 200px;
     h2{
         font-weight: bold;
     }
-
     .btn{
         background: transparent;
         font-size: small;
@@ -53,7 +48,6 @@
     height: 100vh;
     text-align: center;
     padding-top: 20%;
-
     .title{
         background-color: red;
         margin: 0 auto;
@@ -63,24 +57,33 @@
         h1{
             font-size:50px;
         }
-       
-
     }
-
-    
 }
 .column-Two{
     text-align:end;
-}
 
-@media all and (max-width: 900px) {
-    .column-Two {
-        width: 50%;
-        float: top;
+    .menu{
+        margin-top: 100px;
+        font-weight: bold;
+
+        :hover{
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .column-Two { 
+        position: absolute;
+        text-align: start;
+        height: 30vh;
+        .menu{
+            margin-top: -100px;
+        }
     }
     .column-One {
-        background-color: blue;
-        width: 100%;
-        
+        text-align: center;
+        transform: translateY(220px); 
+        height: 50vh;  
     }
   }

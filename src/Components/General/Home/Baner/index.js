@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Nav, Button, NavDropdown, Navbar, Offcanvas, Form, FormControl } from 'react-bootstrap'
+import { Container, Nav, Button, NavDropdown, Navbar, Offcanvas, Form, FormControl, NavLink } from 'react-bootstrap'
 import '../Baner/style.scss';
 
 const Baner = () => {
@@ -9,8 +9,6 @@ const Baner = () => {
     <Container fluid>
     <Navbar.Brand href="#"><div className='logo'><h1>b</h1></div></Navbar.Brand>
     <Nav.Link href="#action1" className='search'>SEARCH</Nav.Link>
-
-
 
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas style={{width:"100%"}}
@@ -27,10 +25,10 @@ const Baner = () => {
       <Offcanvas.Header closeButton>
         <Offcanvas.Title id="offcanvasNavbarLabel"></Offcanvas.Title>
       </Offcanvas.Header>
-      <Offcanvas.Body>
+      <Offcanvas.Body className='menu'>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link href="#action1">HOME</Nav.Link>
-          <Nav.Link href="#action2">ABOUT</Nav.Link>
+          <Nav.Link  to="/Home"> HOME</Nav.Link>
+          <Nav.Link to="/About">ABOUT</Nav.Link>
           <Nav.Link href="#action1">TEAM</Nav.Link>
           <Nav.Link href="#action2">WORK</Nav.Link>
           <Nav.Link href="#action1">PRODUCTS</Nav.Link>

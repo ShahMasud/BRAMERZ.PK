@@ -7,49 +7,39 @@ import { FiMonitor } from "react-icons/fi";
 import { AiOutlineMobile } from "react-icons/ai";
 import { MdOutlineTouchApp, MdAutoGraph } from "react-icons/md";
 
-import DigitalStratigy from './DigitalStratigy';
-import Design from './Design';
-import Web from './Web';
-import Mobile from './Mobile';
-import SocialMedia from './SocialMedia';
-import OnlineMediaBuying from './OnlineMediaBuying';
-import SEO from './SEO';
+import CommonComp from './CommonComp';
+import sData from './CommonComp/sData';
 
 
 const Services = () => {
 
-    const [data, setData]=useState(DigitalStratigy);
-   
-    
-
-    var elem = document.getElementById("intro");
-
+    const [data, setData]=useState();
     const Display = (event) =>{
-       
         console.log("clicked");
-
         const name= event.target.dataset.name;
-        console.log(event.target.dataset.name);
+        console.log(name);
         
         switch (name) {
-            case 'Digital': setData(DigitalStratigy)
+            case '0': setData(sData[0]) 
             break;
-            case 'Design' : setData(Design)
+            case '1' : setData(sData[1])
             break;
-            case 'Web' : setData(Web)
+            case '2' : setData(sData[2])
             break;
-            case 'Mobile' : setData(Mobile)
+            case '3' :  setData(sData[3])
             break;
-            case 'socialMedia' : setData(SocialMedia)
+            case '4' :  setData(sData[4])
             break;
-            case 'Clock' : setData(OnlineMediaBuying)
+            case '5' :  setData(sData[5])
             break;
-            case 'SEO' : setData(SEO)
+            case '6' :  setData(sData[6])
             break;
 
             default: return <h2>no data found</h2>;
                 
         }
+
+        
 
     }
   return (
@@ -57,18 +47,18 @@ const Services = () => {
        <Container className='container'>
        <h2>Services</h2>
        <Row className='row'>
-           <Col lg={1} md={2} sm={2} xs={2}><BsLightbulb className='icon' onClick={Display} data-name="Digital"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2} ><BiPencil className='icon' onClick={Display} data-name="Design"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2} ><FiMonitor className='icon' onClick={Display} data-name="Web"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2}><AiOutlineMobile  className='icon' onClick={Display} data-name="Mobile"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2} ><MdOutlineTouchApp className='icon' onClick={Display} data-name="socialMedia"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2} ><BsClock className='icon' onClick={Display} data-name="Clock"/></Col>
-           <Col lg={1} md={2} sm={2} xs={2}><MdAutoGraph  className='icon' onClick={Display} data-name="SEO"/></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[0])?{color:'red'}:{color:''}}><BsLightbulb  onClick={Display} data-name="0"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[1])?{color:'red'}:{color:''}} ><BiPencil className='icon' onClick={Display} data-name="1"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[2])?{color:'red'}:{color:''}}><FiMonitor className='icon' onClick={Display} data-name="2"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[3])?{color:'red'}:{color:''}}><AiOutlineMobile  className='icon' onClick={Display} data-name="3"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[4])?{color:'red'}:{color:''}}><MdOutlineTouchApp className='icon' onClick={Display} data-name="4"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[5])?{color:'red'}:{color:''}}><BsClock className='icon' onClick={Display} data-name="5"  /></Col>
+           <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[6])?{color:'red'}:{color:''}}><MdAutoGraph  className='icon' onClick={Display} data-name="6"  /></Col>
        </Row>
 
-       <div className='renderData'>
-           {data}
-       </div>
+       
+           <CommonComp data={data}/>
+       
 
        
         

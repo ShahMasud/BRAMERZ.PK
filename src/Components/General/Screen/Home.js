@@ -10,7 +10,7 @@ import Clients from '../Home/Clients'
 const Home = () => {
     return (
       <section className='Section'>
-       <Baner/> 
+      <Baner/> 
       <Services/>
       <PSL/>
       <MCB/>
