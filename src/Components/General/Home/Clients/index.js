@@ -12,12 +12,24 @@ const Clients = () => {
    <Container fluid className='container'>
    <h3>Clients</h3>
    <p>Some of the brands we’ve had the pleasure of working with.</p>
-      <div className='mainDIV'>
-      <img src={cocacola} alt="" />
-      <img src={pepsi} alt="" />
-      <img src={nestle} alt="" />
-      <img src={samsung} alt="" />
+      <div className='row mainDIV'>
+      <div className='col'>
+          <img className='images' src={cocacola} alt="" />
       </div>
+      
+      <div className='col'>
+          <img className='images' src={pepsi} alt="" />
+  
+      </div>
+          <div className='col'>
+          <img className='images' src={nestle} alt="" />
+ 
+      </div>
+           <div className='col'>
+          <img className='images' src={samsung} alt="" />
+
+      </div>
+            </div>
    </Container>
   )
 }

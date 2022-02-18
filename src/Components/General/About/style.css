@@ -1,0 +1,48 @@
+.about {
+  background-color: red;
+  margin-top: -760px;
+  text-align: center;
+  height: 270px;
+}
+
+.about .aboutTitle {
+  padding-top: 100px;
+  color: white;
+}
+
+.mainContainer .row .column-1 {
+  background-color: blue;
+  height: 370px;
+}
+
+.mainContainer .row .column-2 {
+  padding: 50px;
+  color: black;
+  height: 370px;
+}
+
+.mainContainer .row .column-2 p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.mainContainer .row .column-3 {
+  color: black;
+  padding: 50px;
+  height: 370px;
+}
+
+.mainContainer .row .column-3 p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.mainContainer .row .column-4 {
+  background-color: red;
+  height: 370px;
+}
+/*# sourceMappingURL=style.css.map */

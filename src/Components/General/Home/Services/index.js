@@ -46,7 +46,7 @@ const Services = () => {
    <>
        <Container className='container'>
        <h2>Services</h2>
-       <Row className='row'>
+       <Row className='servicesRow'>
            <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[0])?{color:'red'}:{color:''}}><BsLightbulb  onClick={Display} data-name="0"  /></Col>
            <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[1])?{color:'red'}:{color:''}} ><BiPencil className='icon' onClick={Display} data-name="1"  /></Col>
            <Col lg={1} md={2} sm={2} xs={2} style={(data==sData[2])?{color:'red'}:{color:''}}><FiMonitor className='icon' onClick={Display} data-name="2"  /></Col>

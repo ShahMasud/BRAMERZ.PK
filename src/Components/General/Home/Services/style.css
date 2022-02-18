@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.container .servicesRow {
+  font-size: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.container .servicesRow .icon:hover {
+  cursor: pointer;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

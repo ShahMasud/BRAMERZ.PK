@@ -1,4 +1,46 @@
-.Baner{
-    height: 40vh;
+.about{
     background-color: red;
+    margin-top: -760px;
+    text-align: center;
+    height: 270px;
+    .aboutTitle{
+        padding-top: 100px;
+        color: white;
+    }    
 }
+.mainContainer{
+    
+    .row{
+        .column-1{
+            background-color: blue;
+            height: 370px;   
+        }
+        .column-2{
+            padding: 50px;   
+            color: black;
+            height: 370px;
+            p{
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+        .column-3{
+            color: black;
+            padding: 50px;
+            height: 370px;
+            
+            p{
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+        .column-4{
+            background-color: red;
+            height: 370px;
+        }
+
+        
+        
+    }
+}
+

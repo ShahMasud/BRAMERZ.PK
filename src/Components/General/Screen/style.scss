@@ -1,60 +1,60 @@
-.Section{
-    background-image: url("../../../Assets/Images/milkyway.jpg");
-    height: 100vh;
-    // width: 100vw;
-    margin-bottom: 70px;
+// .Section{
+//     background-image: url("../../../Assets/Images/milkyway.jpg");
+//     height: 100vh;
+//     // width: 100vw;
+//     margin-bottom: 70px;
 
-    .container{
-        margin-bottom: 300px;
-    }
+//     .container{
+//         margin-bottom: 300px;
+//     }
     
-    .main_div{
-        padding-top: 10px;
-        display: flex;
-        color: white;
-        justify-content: space-around;
+//     .main_div{
+//         padding-top: 10px;
+//         display: flex;
+//         color: white;
+//         justify-content: space-around;
 
-        .logo{ 
-            margin-left: 10px;
-            background-color: red;
-            height: 2%;
-            width: 3%;
-            text-align: center;
-            margin-right: auto;    
-        }
-        .Search{
-            display: flex;
-            align-items: center;
-            margin-left: auto;
-            .search{
-                color: white;
-            }
+//         .logo{ 
+//             margin-left: 10px;
+//             background-color: red;
+//             height: 2%;
+//             width: 3%;
+//             text-align: center;
+//             margin-right: auto;    
+//         }
+//         .Search{
+//             display: flex;
+//             align-items: center;
+//             margin-left: auto;
+//             .search{
+//                 color: white;
+//             }
             
-        }
-    }
+//         }
+//     }
 
-    .center-div{
-        margin-top: 200px;
-        p{
-            font-size: 40px;
-            font-weight: 300;
-        }
-        h1{
-            font-weight: bold;
-        }
-        Button{
-            width: 200px;
-            font-size: 10px;
-            padding: 10px;
-            font-weight: bold;
-        }
-        Button:hover{
-            background-color: red;
-            border-color: red;
-            color: white;
+//     .center-div{
+//         margin-top: 200px;
+//         p{
+//             font-size: 40px;
+//             font-weight: 300;
+//         }
+//         h1{
+//             font-weight: bold;
+//         }
+//         Button{
+//             width: 200px;
+//             font-size: 10px;
+//             padding: 10px;
+//             font-weight: bold;
+//         }
+//         Button:hover{
+//             background-color: red;
+//             border-color: red;
+//             color: white;
 
-        }
+//         }
 
-    }
+//     }
 
-}
+// }

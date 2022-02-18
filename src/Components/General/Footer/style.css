@@ -1,0 +1,92 @@
+.footerContainer {
+  background-color: #333233;
+  height: auto;
+}
+
+.footerContainer .main_div {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footerContainer .main_div .innerDiv {
+  height: 70%;
+  padding-top: 40px;
+  color: white;
+}
+
+.footerContainer .main_div .innerDiv .title {
+  background-color: red;
+  width: 125px;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-bottom: 25px;
+}
+
+.footerContainer .main_div .innerDiv .title p {
+  font-size: 27px;
+}
+
+.footerContainer .main_div .innerDiv .List {
+  list-style-type: none;
+  font-size: small;
+}
+
+.footerContainer .main_div .innerDiv-2 {
+  display: flex-end;
+  height: 70%;
+  padding-top: 40px;
+  color: white;
+  text-align: end;
+}
+
+.footerContainer .main_div .innerDiv-2 h4 {
+  font-weight: bold;
+}
+
+.footerContainer .main_div .innerDiv-2 p {
+  font-size: small;
+}
+
+.footerContainer .main_div .innerDiv-2 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 15px;
+  font-size: large;
+}
+
+.footerContainer .main_div .footerNav {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.footerContainer .main_div .footerNav .columnOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerContainer .main_div .footerNav .columnOne .navLink {
+  color: white;
+  font-size: small;
+  text-align: start;
+  margin-left: -28px;
+}
+
+.footerContainer .main_div .footerNav .heart {
+  font-size: small;
+}
+
+.footerContainer .main_div .footerNav .heart p {
+  text-align: end;
+  margin-right: -10px;
+}
+/*# sourceMappingURL=style.css.map */

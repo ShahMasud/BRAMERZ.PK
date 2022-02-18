@@ -1,0 +1,18 @@
+.PSLDiv {
+  background-image: url("../../../../Assets/Images/bramerz.jpg");
+  height: 100vh;
+  padding-top: 530px;
+  background-color: red;
+  padding-left: 170px;
+  padding: 10px;
+}
+
+.PSLDiv .text {
+  color: white;
+}
+
+.PSLDiv .text h1:hover {
+  cursor: pointer;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

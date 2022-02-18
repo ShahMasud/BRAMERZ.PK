@@ -1,0 +1,17 @@
+.NescafeDiv {
+  background-image: url("../../../../Assets/Images/house.jpg");
+  height: 100vh;
+  padding-top: 230px;
+  padding-left: 170px;
+}
+
+.NescafeDiv .text {
+  width: 30%;
+  color: white;
+}
+
+.NescafeDiv .text h1:hover {
+  cursor: pointer;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

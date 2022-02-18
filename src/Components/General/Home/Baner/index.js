@@ -1,10 +1,14 @@
 import React from 'react'
-import { Container, Nav, Button, NavDropdown, Navbar, Offcanvas, Form, FormControl, NavLink } from 'react-bootstrap'
+import { Container, Nav, Button, NavDropdown, Navbar, Offcanvas, Form, FormControl,} from 'react-bootstrap'
 import '../Baner/style.scss';
+import { NavLink } from 'react-router-dom';
 
-const Baner = () => {
+
+const Baner = (props) => {
+  
   return (
-    <section className='Section'>
+    
+    <section className='Section' style={{backgroundImage:`url(${props.img})`}}>
     <Navbar className='navbar' expand={false}>
     <Container fluid>
     <Navbar.Brand href="#"><div className='logo'><h1>b</h1></div></Navbar.Brand>
@@ -27,12 +31,12 @@ const Baner = () => {
       </Offcanvas.Header>
       <Offcanvas.Body className='menu'>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link  to="/Home"> HOME</Nav.Link>
-          <Nav.Link to="/About">ABOUT</Nav.Link>
-          <Nav.Link href="#action1">TEAM</Nav.Link>
-          <Nav.Link href="#action2">WORK</Nav.Link>
-          <Nav.Link href="#action1">PRODUCTS</Nav.Link>
-          <Nav.Link href="#action2">CLIENTS</Nav.Link>
+          <NavLink to="/Home"> HOME</NavLink>
+          <NavLink to="/About">ABOUT</NavLink>
+          <NavLink to="#action1">TEAM</NavLink>
+          <NavLink to="#action2">WORK</NavLink>
+          <NavLink to="#action1">PRODUCTS</NavLink>
+          <NavLink to="#action2">CLIENTS</NavLink>
           
         </Nav>
         
@@ -44,11 +48,14 @@ const Baner = () => {
   </Container>
 </Navbar>
 
-<div className='theStart'>
+
+{(props?.heading)? <div className='theStart'>
   <h3>Award Winning Full Service</h3>
   <h2>Digital Agency</h2>
   <Button className='btn' variant="secondary">GET STARTED</Button>
-</div>
+ 
+  
+</div>: null}
     
     </section>
   )

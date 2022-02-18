@@ -1,0 +1,53 @@
+.subscribe {
+  background-color: red;
+  height: 40%;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.subscribe h2 {
+  margin-bottom: 40px;
+}
+
+.subscribe Form {
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.subscribe Form .fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  gap: 10px;
+}
+
+.subscribe Form .fields ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.subscribe Form .fields .email {
+  background-color: red;
+  border-color: #ff5961;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  font-size: smaller;
+}
+
+.subscribe Form .fields Button {
+  background-color: #ff5961;
+  color: #fff;
+  padding: 15px;
+  font-size: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.subscribe Form .fields Button:hover {
+  cursor: pointer;
+  background-color: #b51224;
+}
+/*# sourceMappingURL=style.css.map */
