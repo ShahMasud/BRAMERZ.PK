@@ -1,0 +1,27 @@
+.workDiv {
+  margin-top: 20px;
+  gap: 4px;
+}
+
+.workDiv ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.workDiv ul li {
+  padding-right: 15px;
+}
+
+.workDiv ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

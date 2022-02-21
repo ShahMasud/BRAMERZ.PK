@@ -1,0 +1,25 @@
+.workDiv{
+    margin-top: 20px;
+    // background-color: red;
+    gap: 4px;
+    ul{
+        display: flex;
+        // background-color: blue;
+        // gap: 20px;
+        list-style-type: none;
+        justify-content: end;
+        // padding-right: 20px;
+        padding: 10px;
+        font-size: small;
+        color: gray;
+        li{
+            padding-right: 15px;
+        }
+        li:hover{
+                cursor: pointer;
+                color: red;
+            }
+        }
+       
+    
+}

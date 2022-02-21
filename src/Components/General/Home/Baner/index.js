@@ -27,17 +27,16 @@ const Baner = (props) => {
     </div>
       <div className='col  column-Two'>
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel"></Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel">hello</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body className='menu'>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <NavLink to="/Home"> HOME</NavLink>
-          <NavLink to="/About">ABOUT</NavLink>
-          <NavLink to="#action1">TEAM</NavLink>
-          <NavLink to="#action2">WORK</NavLink>
-          <NavLink to="#action1">PRODUCTS</NavLink>
-          <NavLink to="#action2">CLIENTS</NavLink>
-          
+          <NavLink className= "navlink" to="/Home"> HOME</NavLink>
+          <NavLink className= "navlink" to="/About">ABOUT</NavLink>
+          <NavLink className= "navlink" to="/Team">TEAM</NavLink>
+          <NavLink className= "navlink" to="/Work">WORK</NavLink>
+          <NavLink className= "navlink" to="/Products">PRODUCTS</NavLink>
+          <NavLink className= "navlink" to="/Client">CLIENTS</NavLink>
         </Nav>
         
       </Offcanvas.Body>

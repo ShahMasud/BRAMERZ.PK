@@ -11,21 +11,18 @@
 }
 
 .mainContainer .row .column-1 {
-  background-color: blue;
-  height: 370px;
+  padding: 0px;
 }
 
 .mainContainer .row .column-2 {
   padding: 50px;
   color: black;
-  height: 370px;
 }
 
 .mainContainer .row .column-2 p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
 }
 
 .mainContainer .row .column-3 {
@@ -38,11 +35,22 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
 }
 
 .mainContainer .row .column-4 {
-  background-color: red;
   height: 370px;
+  padding: 0px;
+}
+
+.awardsContainer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.awardsContainer p {
+  margin-top: -35px;
+  color: black;
+  font-size: small;
 }
 /*# sourceMappingURL=style.css.map */

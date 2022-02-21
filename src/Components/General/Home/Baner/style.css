@@ -81,7 +81,11 @@
   font-weight: bold;
 }
 
-.column-Two .menu :hover {
+.column-Two .menu .navlink {
+  text-decoration: none;
+}
+
+.column-Two .menu .navlink:hover {
   color: red;
   cursor: pointer;
 }

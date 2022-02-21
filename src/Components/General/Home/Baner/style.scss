@@ -64,12 +64,22 @@
     .menu{
         margin-top: 100px;
         font-weight: bold;
-
-        :hover{
+        .navlink{
+            text-decoration: none;
+        }
+        .navlink:hover{
             color: red;
             cursor: pointer;
         }
+        
+
+       
     }
+}
+
+#offcanvasNavbarLabel{
+    color: white;
+    background-color: white;
 }
 @media only screen and (max-width: 600px) {
     .column-Two { 
@@ -78,6 +88,7 @@
         height: 30vh;
         .menu{
             margin-top: -40px;
+           
         }
     }
     .column-One {

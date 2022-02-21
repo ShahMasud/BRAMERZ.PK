@@ -12,16 +12,13 @@
     
     .row{
         .column-1{
-            background-color: blue;
-            height: 370px;   
+            padding: 0px; 
         }
         .column-2{
             padding: 50px;   
             color: black;
-            height: 370px;
             p{
                 justify-content: center;
-                margin-top: 20px;
             }
         }
         .column-3{
@@ -31,16 +28,25 @@
             
             p{
                 justify-content: center;
-                margin-top: 20px;
             }
         }
         .column-4{
-            background-color: red;
             height: 370px;
+            padding: 0px;
         }
 
         
         
+    }
+}
+
+.awardsContainer{
+    width: fit-content;
+
+    p{
+        margin-top: -35px;
+        color: black;
+        font-size: small;
     }
 }
 

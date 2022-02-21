@@ -1,0 +1,29 @@
+.Team {
+  background-color: #c31d28;
+  margin-top: -760px;
+  text-align: center;
+  height: 270px;
+}
+
+.Team .teamTitle {
+  padding-top: 115px;
+  color: white;
+}
+
+.Team .teamTitle h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.carD {
+  height: 200px;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.carD :hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=style.css.map */
