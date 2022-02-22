@@ -8,15 +8,21 @@
     }
     .servicesRow{
         font-size: 60px;
-        justify-content: center;
-        gap: 15px;
+        // background-color: orange;
+        width: 80%;
+        margin: 0 auto;
         margin-bottom: 50px;
 
         .icon:hover{
             cursor: pointer;
             color: red;  
         }
-    }  
+    } 
+    
+    p{
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 

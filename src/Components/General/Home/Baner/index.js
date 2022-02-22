@@ -31,7 +31,7 @@ const Baner = (props) => {
       </Offcanvas.Header>
       <Offcanvas.Body className='menu'>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <NavLink className= "navlink" to="/Home"> HOME</NavLink>
+          <NavLink className= "navlink" to="/Home">HOME</NavLink>
           <NavLink className= "navlink" to="/About">ABOUT</NavLink>
           <NavLink className= "navlink" to="/Team">TEAM</NavLink>
           <NavLink className= "navlink" to="/Work">WORK</NavLink>
@@ -52,8 +52,6 @@ const Baner = (props) => {
   <h3>Award Winning Full Service</h3>
   <h2>Digital Agency</h2>
   <Button className='btn' variant="secondary">GET STARTED</Button>
- 
-  
 </div>: null}
     
     </section>
